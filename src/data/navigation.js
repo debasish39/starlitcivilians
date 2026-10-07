@@ -1,0 +1,1 @@
+export const navigation=[{label:"Home",path:"/"},{label:"About",path:"/about"},{label:"Menu",path:"/menu"},{label:"Gallery",path:"/gallery"},{label:"Events",path:"/events"},{label:"Contact",path:"/contact"}];

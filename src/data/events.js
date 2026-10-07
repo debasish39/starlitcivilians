@@ -1,0 +1,3 @@
+export const events=[
+{id:1,title:"Weekend Evenings",description:"A concept section for verified weekend experiences and restaurant announcements.",image:"https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=85"},
+{id:2,title:"Private Celebrations",description:"A dedicated space for parties, celebrations and private dining enquiries.",image:"https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1400&q=85"}];

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+:root{font-family:Inter,ui-sans-serif,system-ui,sans-serif;color-scheme:dark;--bg:#090909;--text:#f8f5ef;--muted:#a8a29e;--gold:#d6a85f;--gold2:#f0c982}
+*{box-sizing:border-box}html{scroll-behavior:smooth;background:var(--bg)}body{margin:0;min-width:320px;background:var(--bg);color:var(--text)}button,a,input,textarea,select{font:inherit}img{display:block;max-width:100%}
+::selection{background:#d6a85f40;color:#fff}.restaurant-grid{background-image:linear-gradient(#ffffff06 1px,transparent 1px),linear-gradient(90deg,#ffffff06 1px,transparent 1px);background-size:44px 44px}
+.hero-image{animation:heroZoom 18s ease-in-out infinite alternate}@keyframes heroZoom{from{transform:scale(1)}to{transform:scale(1.07)}}
+.shine{position:relative;overflow:hidden}.shine:after{content:"";position:absolute;inset:-30% auto -30% -70%;width:35%;transform:skewX(-18deg);background:linear-gradient(90deg,transparent,#ffffff55,transparent);animation:shine 5s ease-in-out infinite;pointer-events:none}@keyframes shine{0%,30%{transform:translateX(-120%) skewX(-18deg)}70%,100%{transform:translateX(520%) skewX(-18deg)}}
+.gold-gradient{background:linear-gradient(90deg,#f0c982,#d6a85f,#fff1c9);-webkit-background-clip:text;background-clip:text;color:transparent}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.hero-image,.shine:after{animation:none!important}}

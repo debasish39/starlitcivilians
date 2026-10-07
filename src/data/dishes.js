@@ -1,0 +1,5 @@
+export const dishes=[
+{id:1,name:"Korean Fried Chicken",category:"Signature",description:"A crisp, bold-flavoured favourite.",image:"https://images.unsplash.com/photo-1527477396000-e27163b481c2?auto=format&fit=crop&w=1200&q=85"},
+{id:2,name:"Chicken Mutka Dum Biryani",category:"Biryani",description:"Aromatic dum-style biryani for a hearty dinner.",image:"https://images.unsplash.com/photo-1563379091339-03246963d29a?auto=format&fit=crop&w=1200&q=85"},
+{id:3,name:"Butter Garlic Prawn",category:"Seafood",description:"A rich seafood selection for the table.",image:"https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?auto=format&fit=crop&w=1200&q=85"},
+{id:4,name:"Veg Kundan Masala",category:"Vegetarian",description:"A rich Indian preparation for vegetarian guests.",image:"https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=85"}];
